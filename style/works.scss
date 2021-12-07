@@ -1,0 +1,115 @@
+.works {
+   padding: 0 10px;
+   &__items{
+      padding-bottom: 60px;
+   @media(min-width: 767px){
+      padding-bottom: 30px;
+    }
+   }
+   &__main-title{
+      margin: 0px 0px 45px 0px ;
+      @media(min-width: 767px){
+         margin: 0px 0px 20px 0px ;
+       }
+   }
+   // .works__item
+
+   &__item {
+      padding: 0px 0px 30px 0px ;
+      margin: 0px 0px 30px 0px ;
+      border-bottom:1px solid #e0e0e0 ;
+      &:last-child {
+         margin-bottom: 0;
+      }
+      @media(min-width: 767px){
+        display: flex;
+      align-items: flex-start;
+      }
+   }
+
+   // .works__image
+
+   &__image {
+      display: block;
+      
+         min-height: 180px;
+         flex: 0 0 246px;
+         border-radius: 6px;
+         position: relative;
+         overflow: hidden;
+         &:hover{
+            // z-index: 3;
+            opacity: 0.85;
+          }
+         img{
+            z-index: 1;
+            object-fit: cover;
+         }
+         @media(max-width: 767px){
+            padding: 0px 0px 60% 0px;
+            margin: 0px 0px 17px 0px;
+          }
+   }
+
+   // .works__body
+
+   &__body {
+      flex:  1 1 auto;
+      @media(min-width: 767px){
+         padding: 0px 0px 0px 18px;
+       }
+   }
+
+   // .works__title
+
+   &__title {
+      color: inherit;
+      font-size: 30px;
+      line-height: 44 / 30 * 100%;
+      font-weight: 700;
+      display: inline-block;
+      margin: 0px 0px 15px 0px ;
+      transition: color 0.3s ease 0s;
+      @media(max-width: 767px){
+         font-size: 24px;
+       }
+       &:hover{
+          color: #ff6464;
+       }
+   }
+
+   // .works__info
+
+   &__info {
+      display: flex;
+align-items: center;
+margin: 0px 0px 15px 0px ;
+   }
+
+   // .works__year
+
+   &__year {
+      display: inline-flex;
+      background: #142850;
+      border-radius: 16px;
+      height: 25px;
+      padding: 0 10px;
+      align-items: center;
+      color: #fff;
+      font-weight: 900;
+      font-size: 18px;
+   }
+
+   // .works__category
+
+   &__category {
+color: #8695a4;
+font-size: 20px;
+margin: 0px 0px 0px 25px;
+   }
+
+   // .works__text
+
+   &__text {
+   }
+}

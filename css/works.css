@@ -1,0 +1,137 @@
+.works {
+  padding: 0 10px;
+}
+
+.works__items {
+  padding-bottom: 60px;
+}
+
+@media (min-width: 767px) {
+  .works__items {
+    padding-bottom: 30px;
+  }
+}
+
+.works__main-title {
+  margin: 0px 0px 45px 0px;
+}
+
+@media (min-width: 767px) {
+  .works__main-title {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.works__item {
+  padding: 0px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.works__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 767px) {
+  .works__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.works__image {
+  display: block;
+  min-height: 180px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 246px;
+          flex: 0 0 246px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.works__image:hover {
+  opacity: 0.85;
+}
+
+.works__image img {
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .works__image {
+    padding: 0px 0px 60% 0px;
+    margin: 0px 0px 17px 0px;
+  }
+}
+
+.works__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+@media (min-width: 767px) {
+  .works__body {
+    padding: 0px 0px 0px 18px;
+  }
+}
+
+.works__title {
+  color: inherit;
+  font-size: 30px;
+  line-height: 146.66667%;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0px 0px 15px 0px;
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+}
+
+@media (max-width: 767px) {
+  .works__title {
+    font-size: 24px;
+  }
+}
+
+.works__title:hover {
+  color: #ff6464;
+}
+
+.works__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 15px 0px;
+}
+
+.works__year {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #142850;
+  border-radius: 16px;
+  height: 25px;
+  padding: 0 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.works__category {
+  color: #8695a4;
+  font-size: 20px;
+  margin: 0px 0px 0px 25px;
+}
